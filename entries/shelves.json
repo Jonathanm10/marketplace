@@ -1,0 +1,33 @@
+{
+  "id": "shelves",
+  "displayName": "Shelves",
+  "description": "Keep the threads that need you in view, and file finished ones without archiving or deleting them. Threads sort onto three shelves: Working for running agents, Active for recent results, errors and questions, and Settled for filed conversations. Snooze hides a thread until later, and Settle has Undo. Threads settle on their own after seven days of inactivity or when their pull request is merged or closed, while running work, unanswered questions and pins keep a thread in place. Replaces BB's thread list in the sidebar while it is selected. Automatic settling reads pull request state from BB's GitHub PR Status plugin, and leaves a thread in place while that state is unknown.",
+  "icon": "PanelLeft",
+  "screenshots": [
+    "./screenshots/shelves/overview.png",
+    "./screenshots/shelves/overview-dark.png",
+    "./screenshots/shelves/settings.png"
+  ],
+  "overview": "./overview/shelves.md",
+  "tags": [
+    "sidebar",
+    "threads",
+    "inbox",
+    "snooze",
+    "auto-settle",
+    "triage",
+    "productivity"
+  ],
+  "author": {
+    "name": "Jonathan M.",
+    "github": "Jonathanm10",
+    "url": "https://github.com/Jonathanm10"
+  },
+  "category": "thread-management",
+  "source": {
+    "git": {
+      "url": "https://github.com/Jonathanm10/bb-plugin-shelves.git",
+      "range": "^0.1.0"
+    }
+  }
+}
