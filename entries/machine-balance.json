@@ -1,0 +1,32 @@
+{
+  "id": "machine-balance",
+  "displayName": "Machine Balance",
+  "description": "Start each new thread on the connected machine with the most free CPU and memory, without picking one yourself. The new-thread screen moves to the best machine for the project, and a machine you pick by hand stays picked until you send. A Machines settings section shows each machine's live load and score, and lets you set a machine to Prefer, Normal, Less often or Manual only. Agents get a bb balance command to spawn child threads on the least-busy machine. Needs BB 0.50 or newer and at least two connected machines to have an effect. Nothing leaves your machines.",
+  "icon": "ChartColumn",
+  "screenshots": [
+    "./screenshots/machine-balance/settings.png",
+    "./screenshots/machine-balance/composer.png"
+  ],
+  "overview": "./overview/machine-balance.md",
+  "tags": [
+    "machines",
+    "load-balancing",
+    "remote",
+    "multi-machine",
+    "new-thread",
+    "cpu",
+    "memory"
+  ],
+  "author": {
+    "name": "Jonathan M.",
+    "github": "Jonathanm10",
+    "url": "https://github.com/Jonathanm10"
+  },
+  "category": "cloud-and-remote",
+  "source": {
+    "git": {
+      "url": "https://github.com/Jonathanm10/bb-plugin-machine-balance.git",
+      "range": "^0.1.0"
+    }
+  }
+}
