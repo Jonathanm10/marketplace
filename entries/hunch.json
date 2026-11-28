@@ -1,0 +1,33 @@
+{
+  "id": "hunch",
+  "displayName": "Hunch",
+  "description": "See the prompt you were about to type as grey text in the empty composer, and press Tab to take it. After each finished turn, a throwaway copy of the thread's own Claude Code or Codex session predicts your next message, so the suggestion draws on everything the agent saw, tool output included. Show up to three suggestions as numbered cards above the composer instead, or both. Nothing is sent or written to the thread until you send the draft yourself. Each prediction is one model request on your own Claude or ChatGPT sign-in, and its cost grows with the session; threads on other providers use the stored transcript and the model you pick.",
+  "icon": "CornerDownRight",
+  "screenshots": [
+    "./screenshots/hunch/suggestion.png",
+    "./screenshots/hunch/settings.png"
+  ],
+  "overview": "./overview/hunch.md",
+  "tags": [
+    "composer",
+    "suggestions",
+    "autocomplete",
+    "prompt",
+    "ghost-text",
+    "session-fork",
+    "claude-code",
+    "codex"
+  ],
+  "author": {
+    "name": "Jonathan M.",
+    "github": "Jonathanm10",
+    "url": "https://github.com/Jonathanm10"
+  },
+  "category": "thread-content",
+  "source": {
+    "git": {
+      "url": "https://github.com/Jonathanm10/bb-plugin-hunch.git",
+      "range": "^0.1.0"
+    }
+  }
+}
